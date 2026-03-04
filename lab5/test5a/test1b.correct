@@ -1,0 +1,3 @@
+ERROR: Symbol aaa already defined in current scope near line 9
+ERROR: Symbol bbb already defined in current scope near line 11
+2 Errors in compile

@@ -1,0 +1,24 @@
+program
+{
+    char   aa;
+    int    bb;
+    char   cc;
+    float  dd;
+    char   ee;
+
+    {
+        int ff;
+        int gg;
+
+        print(1);
+    }
+
+    {
+        int hh;
+        int ii;
+
+        print(2);
+    }
+
+    print(3);
+}

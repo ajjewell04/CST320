@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<program>
+  <open/>
+  <sym id="1" name="a"/>
+  <sym id="2" name="b"/>
+  <close/>
+</program>

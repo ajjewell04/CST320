@@ -1,0 +1,40 @@
+// test basic assignments
+program
+{
+    char    a_char;
+    int     a_int;
+    long    a_long;
+    float   a_float;
+    double  a_double;
+
+    a_char = a_char;
+    a_char = a_int;
+    a_char = a_long;
+    a_char = a_float;
+    a_char = a_double;
+
+    a_int = a_char;
+    a_int = a_int;
+    a_int = a_long;
+    a_int = a_float;
+    a_int = a_double;
+
+    a_long = a_char;
+    a_long = a_int;
+    a_long = a_long;
+    a_long = a_float;
+    a_long = a_double;
+
+    a_float = a_char;
+    a_float = a_int;
+    a_float = a_long;
+    a_float = a_float;
+    a_float = a_double;
+
+    a_double = a_char;
+    a_double = a_int;
+    a_double = a_long;
+    a_double = a_float;
+    a_double = a_double;
+}
+

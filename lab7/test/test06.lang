@@ -1,0 +1,13 @@
+// Anthony Jewell - char storage, nested blocks, and string printing
+program
+{
+    char c;
+    c = 65;
+    print(c);
+    {
+        int x;
+        x = 5;
+        print(x);
+    }
+    prints("ok");
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<program>
+  <block>
+    <decls>
+      <var_decl>
+        <sym id="2" name="int"/>
+        <sym id="6" name="a"/>
+      </var_decl>
+      <func>
+        <sym id="2" name="int"/>
+        <sym id="7" name="f1"/>
+      </func>
+      <func>
+        <sym id="2" name="int"/>
+        <sym id="8" name="f2"/>
+        <args>
+          <var_decl>
+            <sym id="2" name="int"/>
+            <sym id="9" name="a"/>
+          </var_decl>
+        </args>
+      </func>
+      <func>
+        <sym id="3" name="float"/>
+        <sym id="10" name="f3"/>
+        <args>
+          <var_decl>
+            <sym id="2" name="int"/>
+            <sym id="11" name="a"/>
+          </var_decl>
+          <var_decl>
+            <sym id="3" name="float"/>
+            <sym id="12" name="b"/>
+          </var_decl>
+        </args>
+      </func>
+      <func>
+        <sym id="2" name="int"/>
+        <sym id="13" name="f4"/>
+        <args>
+          <var_decl>
+            <sym id="2" name="int"/>
+            <sym id="14" name="a"/>
+          </var_decl>
+        </args>
+        <stmts>
+          <return>
+            <varref>
+              <sym id="14" name="a"/>
+            </varref>
+          </return>
+        </stmts>
+      </func>
+      <func>
+        <sym id="3" name="float"/>
+        <sym id="15" name="f5"/>
+        <args>
+          <var_decl>
+            <sym id="2" name="int"/>
+            <sym id="16" name="a"/>
+          </var_decl>
+        </args>
+        <decls>
+          <var_decl>
+            <sym id="2" name="int"/>
+            <sym id="17" name="b"/>
+          </var_decl>
+        </decls>
+        <stmts>
+          <assign>
+            <varref>
+              <sym id="16" name="a"/>
+            </varref>
+            <varref>
+              <sym id="17" name="b"/>
+            </varref>
+          </assign>
+        </stmts>
+      </func>
+    </decls>
+    <stmts>
+      <funcCall>
+        <sym id="15" name="f5"/>
+        <params>
+          <varref>
+            <sym id="6" name="a"/>
+          </varref>
+        </params>
+      </funcCall>
+      <assign>
+        <varref>
+          <sym id="6" name="a"/>
+        </varref>
+        <funcCall>
+          <sym id="13" name="f4"/>
+          <params>
+            <varref>
+              <sym id="6" name="a"/>
+            </varref>
+          </params>
+        </funcCall>
+      </assign>
+    </stmts>
+  </block>
+</program>

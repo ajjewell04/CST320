@@ -1,0 +1,8 @@
+program
+{
+    int aaa;
+
+    bbb = aaa;
+    aaa = bbb;
+}
+

@@ -1,0 +1,6 @@
+ERROR: Cannot assign int to char near line 12
+ERROR: Cannot assign int to char near line 13
+ERROR: Cannot assign float to char near line 14
+ERROR: Cannot assign float to int near line 20
+ERROR: Cannot assign float to long near line 26
+5 Errors in compile

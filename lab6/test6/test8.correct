@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<program size="16">
+  <block size="16">
+    <decls size="16">
+      <var_decl size="4" offset="0">
+        <sym id="2" name="int"/>
+        <sym id="6" name="aa"/>
+      </var_decl>
+      <var_decl size="4" offset="4">
+        <sym id="2" name="int"/>
+        <sym id="7" name="bb"/>
+      </var_decl>
+      <var_decl size="4" offset="8">
+        <sym id="2" name="int"/>
+        <sym id="8" name="cc"/>
+      </var_decl>
+      <func size="4" offset="0">
+        <sym id="2" name="int"/>
+        <sym id="9" name="foo"/>
+        <args size="8">
+          <var_decl size="4" offset="-12">
+            <sym id="2" name="int"/>
+            <sym id="10" name="bb"/>
+          </var_decl>
+          <var_decl size="4" offset="-16">
+            <sym id="2" name="int"/>
+            <sym id="11" name="cc"/>
+          </var_decl>
+        </args>
+        <decls size="4">
+          <var_decl size="4" offset="0">
+            <sym id="2" name="int"/>
+            <sym id="12" name="aa"/>
+          </var_decl>
+        </decls>
+        <stmts>
+          <assign>
+            <varref size="4" offset="0">
+              <sym id="12" name="aa"/>
+            </varref>
+            <expr>
+              <varref size="4" offset="-12">
+                <sym id="10" name="bb"/>
+              </varref>
+              <op value="+"/>
+              <varref size="4" offset="-16">
+                <sym id="11" name="cc"/>
+              </varref>
+            </expr>
+          </assign>
+          <print>
+            <varref size="4" offset="0">
+              <sym id="12" name="aa"/>
+            </varref>
+          </print>
+          <return>
+            <varref size="4" offset="0">
+              <sym id="12" name="aa"/>
+            </varref>
+          </return>
+        </stmts>
+      </func>
+      <var_decl size="4" offset="12">
+        <sym id="2" name="int"/>
+        <sym id="13" name="dd"/>
+      </var_decl>
+    </decls>
+    <stmts>
+      <assign>
+        <varref size="4" offset="12">
+          <sym id="13" name="dd"/>
+        </varref>
+        <expr>
+          <expr>
+            <varref size="4" offset="0">
+              <sym id="6" name="aa"/>
+            </varref>
+            <op value="+"/>
+            <varref size="4" offset="4">
+              <sym id="7" name="bb"/>
+            </varref>
+          </expr>
+          <op value="+"/>
+          <varref size="4" offset="8">
+            <sym id="8" name="cc"/>
+          </varref>
+        </expr>
+      </assign>
+      <assign>
+        <varref size="4" offset="0">
+          <sym id="6" name="aa"/>
+        </varref>
+        <funcCall>
+          <sym id="9" name="foo"/>
+          <params size="8">
+            <varref size="4" offset="12">
+              <sym id="13" name="dd"/>
+            </varref>
+            <varref size="4" offset="8">
+              <sym id="8" name="cc"/>
+            </varref>
+          </params>
+        </funcCall>
+      </assign>
+      <print>
+        <varref size="4" offset="0">
+          <sym id="6" name="aa"/>
+        </varref>
+      </print>
+    </stmts>
+  </block>
+</program>

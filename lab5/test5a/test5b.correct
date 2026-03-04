@@ -1,0 +1,3 @@
+ERROR: foo redeclared with a different number of parameters near line 4
+ERROR: bar redeclared with a different number of parameters near line 10
+2 Errors in compile

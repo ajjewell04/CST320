@@ -1,0 +1,15 @@
+program
+{
+   int aa;
+   struct
+   {
+      int aa;
+      int bb;
+   } a_struct;
+
+   int bb;
+   a_struct cc;
+
+   print(aa);
+   print(cc.aa);
+}

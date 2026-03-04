@@ -1,0 +1,11 @@
+program
+{
+    int foo();
+    int foo()
+    {
+        return 1;
+    }
+    int foo();
+
+    foo();
+}

@@ -1,0 +1,11 @@
+program
+{
+    array int[10] my_array;
+
+    int aa;
+    my_array bb;
+
+    bb[5] = 10;
+    aa[5] = 20;
+    bb[5.2] = 30;
+}

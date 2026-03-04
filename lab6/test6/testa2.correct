@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<program size="32">
+  <block size="32">
+    <decls size="32">
+      <array_decl count="5">
+        <sym id="2" name="int"/>
+        <sym id="6" name="int_5"/>
+      </array_decl>
+      <var_decl size="20" offset="0">
+        <sym id="6" name="int_5"/>
+        <sym id="7" name="aa"/>
+      </var_decl>
+      <array_decl count="7">
+        <sym id="1" name="char"/>
+        <sym id="8" name="char_7"/>
+      </array_decl>
+      <var_decl size="7" offset="20">
+        <sym id="8" name="char_7"/>
+        <sym id="9" name="bb"/>
+      </var_decl>
+      <var_decl size="4" offset="28">
+        <sym id="2" name="int"/>
+        <sym id="10" name="cc"/>
+      </var_decl>
+    </decls>
+    <stmts>
+      <print>
+        <varref size="20" offset="0" rowsizes="4">
+          <sym id="7" name="aa"/>
+          <int value="2"/>
+        </varref>
+      </print>
+      <assign>
+        <varref size="20" offset="0" rowsizes="4">
+          <sym id="7" name="aa"/>
+          <int value="3"/>
+        </varref>
+        <varref size="7" offset="20" rowsizes="1">
+          <sym id="9" name="bb"/>
+          <int value="5"/>
+        </varref>
+      </assign>
+      <assign>
+        <varref size="7" offset="20" rowsizes="1">
+          <sym id="9" name="bb"/>
+          <int value="3"/>
+        </varref>
+        <int value="2"/>
+      </assign>
+      <assign>
+        <varref size="4" offset="28">
+          <sym id="10" name="cc"/>
+        </varref>
+        <varref size="20" offset="0" rowsizes="4">
+          <sym id="7" name="aa"/>
+          <int value="1"/>
+        </varref>
+      </assign>
+    </stmts>
+  </block>
+</program>

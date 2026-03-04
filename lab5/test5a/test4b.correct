@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<program>
+  <block>
+    <decls>
+      <var_decl>
+        <sym id="2" name="int"/>
+        <sym id="6" name="foo"/>
+      </var_decl>
+    </decls>
+    <stmts>
+      <block>
+        <decls>
+          <func>
+            <sym id="2" name="int"/>
+            <sym id="7" name="foo"/>
+          </func>
+          <func>
+            <sym id="2" name="int"/>
+            <sym id="7" name="foo"/>
+            <stmts>
+              <return>
+                <int value="1"/>
+              </return>
+            </stmts>
+          </func>
+          <func>
+            <sym id="2" name="int"/>
+            <sym id="7" name="foo"/>
+            <stmts>
+              <return>
+                <int value="1"/>
+              </return>
+            </stmts>
+          </func>
+        </decls>
+        <stmts>
+          <funcCall>
+            <sym id="7" name="foo"/>
+          </funcCall>
+        </stmts>
+      </block>
+    </stmts>
+  </block>
+</program>

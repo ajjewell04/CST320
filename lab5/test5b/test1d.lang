@@ -1,0 +1,27 @@
+// test basic assignments
+program
+{
+    char    a_char;
+    int     a_int;
+    long    a_long;
+    float   a_float;
+    double  a_double;
+
+    a_char = 1.0 > 2.0;
+    a_char = 1.0 < 2.0;
+    a_char = 1.0 >= 2.0;
+    a_char = 1.0 <= 2.0;
+    a_char = 1.0 != 2.0;
+    a_char = 1.0 == 2.0;
+    a_char = 1000 && 2000;
+    a_char = 1000 || 2000;
+
+    a_int = 1.0 > 2.0;
+    a_int = 1.0 < 2.0;
+    a_int = 1.0 >= 2.0;
+    a_int = 1.0 <= 2.0;
+    a_int = 1.0 != 2.0;
+    a_int = 1.0 == 2.0;
+    a_int = 1000 && 2000;
+    a_int = 1000 || 2000;
+}

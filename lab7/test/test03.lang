@@ -1,0 +1,12 @@
+// Anthony Jewell - function calls, parameter order, and return values
+program
+{
+    int diff(int left, int right)
+    {
+        print(left);
+        print(right);
+        return left - right;
+    }
+
+    print(diff(9, 4));
+}

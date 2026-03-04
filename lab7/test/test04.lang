@@ -1,0 +1,25 @@
+// Anthony Jewell - while loops, if statements, and short-circuit logic
+program
+{
+    int hit()
+    {
+        print(77);
+        return 1;
+    }
+
+    int i;
+    i = 0;
+    while (i < 3)
+    {
+        print(i);
+        i = i + 1;
+    }
+
+    if (1 || hit())
+        print(10);
+    endif;
+
+    if (0 && hit())
+        print(20);
+    endif;
+}

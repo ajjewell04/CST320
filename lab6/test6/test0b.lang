@@ -1,0 +1,449 @@
+program
+{
+    {
+        {
+           print(5);
+        }
+        {
+           print(1);
+           print(2);
+           print(3);
+           print(4);
+        }
+        {
+           print(1.7*5+2*3.5);
+        }
+        {
+           char aaa;
+           int bbb;
+           float ccc;
+
+           print(1);
+           print(2);
+           print(aaa);
+           print(4);
+        }
+        {
+          char aaa;
+          int bbb;
+          float ccc;
+
+          if (aaa) 
+              return ccc;
+          endif;
+
+          if (bbb+5)
+            return(5);
+          endif;
+        }
+        {
+          char aaa;
+          int bbb;
+          float ccc;
+
+          if (aaa) return 5; endif;
+          if (bbb+5)
+            return(5);
+          else
+            print(aaa);
+          endif;
+        }
+
+        {
+          char aaa;
+          int bbb;
+          float ccc;
+
+          if (aaa) return 5; endif;
+          if (bbb+5)
+            return(5);
+          else
+            print(aaa);
+          endif;
+
+          while (2) print(3);
+        }
+
+        {
+          char aaa;
+          int bbb;
+          float ccc;
+
+          if (aaa) return 5; endif;
+          if (bbb+5)
+            return(5);
+          else
+            print(aaa);
+          endif;
+
+          while (2) print(3);
+          while (4)
+          {
+            print(5);
+            print(6);
+          }
+
+          if (aaa)
+          {
+            print(1);
+            print(2);
+          } 
+          endif;
+        }
+
+        {
+          char aaa;
+          int bbb;
+          float ccc;
+
+          if (aaa) return 5; endif;
+          if (bbb+5)
+            return(5);
+          else
+            print(aaa);
+          endif;
+
+          while (2) print(3);
+          while (4)
+          {
+            print(5);
+            print(6);
+          }
+
+          if (aaa)
+          {
+            print(1);
+            print(2);
+          } else if (5)
+            while (7) 
+              print(2); endif; endif;
+        }
+
+        {
+          char aaa;
+          int bbb;
+          float ccc;
+
+          if (aaa) return 5; endif;
+          if (bbb+5)
+            return(5);
+          else
+            print(aaa);
+          endif;
+
+          while (2) print(3);
+          while (4)
+          {
+            print(5);
+            print(6);
+          }
+
+          if (aaa)
+            print(1);
+            print(2);
+          else if (5)
+            while (7)
+              print(2); endif; endif;
+          return (aaa+5);
+
+          aaa = 12;
+          bbb = 12+aaa;
+        }
+
+        {
+          char aaa;
+          char bbb;
+
+          print(aaa);
+          {
+             int aaa;
+             print(aaa);
+             print(bbb);
+          }
+
+          print(aaa);
+          print(bbb);
+        }
+        {
+           int aa;
+           struct
+           {
+              int aa;
+              int bb;
+           } a_struct;
+
+           int bb;
+           a_struct cc;
+
+           print(aa);
+           print(cc.aa);
+        }
+        {
+          int a;
+          int f1();
+          int f2(int a);
+          float f3(int a, float b);
+
+          int f4(int a)
+          {
+            return a;
+          }
+
+          float f5(int a)
+          {
+            int b;
+            a = b;
+          }
+
+          f5(a);
+          a = f4(a);
+        }
+    }
+    {
+       int aaa;
+       char aaa;
+
+       print(bbb);
+    }
+    {
+        {
+            int aaa;
+            {
+                int aaa;
+
+                print(aaa);
+                print(bbb);
+            }
+            print(aaa);
+            print(bbb);
+        }
+        print(aaa);
+        print(bbb);
+    }
+    {
+        struct
+        {
+           int a;
+           int b;
+        } struct_1;
+
+        struct
+        {
+           int c;
+           int b;
+           struct_1 d;
+        } struct_2;
+
+        struct_1 aa;
+        struct_2 bb;
+        int cc;
+        struct_2 dd;
+
+        cc.x = 5;
+        bb.e = 6;
+        bb.f.a = 7;
+        bb.d.a = 8;
+        bb.c.a = 9;
+    }
+    {
+        struct
+        {
+           int a;               // 4
+           int b;               // 5
+        } struct_1;             // 6
+
+        struct
+        {
+           int c;               // 7
+           int b;               // 8
+           struct_1 d;   // 9
+        } struct_2;             // 10
+
+        struct_1 aa;     // 11
+        struct_2 bb;     // 12
+        int cc;                 // 13
+        struct_2 dd;     // 14
+
+        bb.d.a = 3;
+        aa.a = 1;
+        aa.b = aa.a;
+
+        bb.c = 1;
+        bb.b = bb.c;
+        bb.d.a = 3;
+        bb.d.b = bb.d.a;
+        dd = bb;
+    }
+    {
+        char aa;
+        int bb;
+        float cc;
+
+        aa = 1;
+        bb = 2;
+        cc = 3.4;
+
+        bb = aa;
+        cc = bb;
+        cc = aa;
+        aa = 127;
+        aa = 0;
+
+        aa = 129;
+        aa = 128;
+        aa = bb;
+        aa = cc;
+        bb = cc;
+    }
+
+    {
+        char aa;
+        int bb;
+        float cc;
+
+        // these should be OK
+        aa = 2 * 4;
+        bb = 200 * 400;
+        cc = 3.4 * 4.5;
+        cc = 4 * 4.5;
+        cc = 304 * 4.5;
+
+        aa = 2 * 4 + 3 - 4 / 2 % 5;
+        bb = 200 * 400 / 1000 + 500 - 200;
+        cc = 3.4 * 4.5 + 5.3 / 3.8;
+
+        aa = aa - 5;
+        bb = bb + aa;
+        cc = cc + aa + bb;
+
+        // the rest a errors
+        aa = 2 - 400;
+        bb = 200 / 4.00;
+
+        aa = 2 - bb;
+        aa = 100 + cc;
+        bb = bb + 3.8;
+        bb = 8 - cc;
+    }
+
+    {
+        struct
+        {
+           int a;
+           int b;
+        } struct_1;
+
+        struct
+        {
+           int c;
+           int b;
+           struct_1 d;
+        } struct_2;
+
+        struct_1 aa;
+        struct_2 bb;
+        int cc;
+        struct_2 dd;
+
+        bb = dd;
+        bb.c = aa.a;
+        bb.d = aa;
+
+        cc = aa;
+        aa = cc;
+        aa = bb;
+        aa.a = bb;
+    }
+    {
+        int foo(int a);
+        float bar(int a);
+
+        int aa;
+        float bb;
+
+        aa = foo(2000);
+        aa = bar(2000);
+
+        bb = foo(2000);
+        bb = bar(2000);
+    }
+    {
+        int aa;             // 4
+        int bb;             // 5
+
+        int foo();          // 6
+        float bar(int aa);  // 7 ( 8 )
+        int foo();          // 6
+        float bar(int aa);  // 7 ( 9 )
+
+        int foo()           // 6
+        {
+            int aa;         // 10
+            return aa;      // 10
+        }
+
+        float bar(int aa)   // 7 ( 11 )
+        {
+            int cc;         // 12
+            return aa*bb*cc;// 11 * 5 * 12
+        }
+
+        print(aa*bb);       // 4 * b
+    }
+
+    {
+        int aa;
+        int aa(int a);
+
+        int foo(int a);
+        float foo(int a);
+
+        return 0;
+    }
+    {
+        int fluff(int a)
+        {
+            return 0;
+        }
+
+        int fluff(int a)
+        {
+            return 1;
+        }
+
+        return 0;
+    }
+    {
+        int foo(int a);
+        int foo(int a, int b);
+
+        float bar(float a);
+        float bar(int a);
+
+        float stuff(int a);
+        float stuff(int a, float b)
+        {
+            return 2.0;
+        }
+
+        int fluff(int a, int b)
+        {
+            return 0;
+        }
+
+        int fluff(int a);
+
+        return 0;
+    }
+    {
+        int aa;
+        int func(int aa);
+
+        func = 5;
+        aa();
+        func(aa, 2);
+        func(3.5);
+
+        return 0;
+    }
+}

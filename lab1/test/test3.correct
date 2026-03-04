@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<program>
+  <open/>
+  <sym id="1" name="a"/>
+  <sym id="2" name="b"/>
+  <open/>
+  <sym id="3" name="a"/>
+  <sym id="4" name="b"/>
+  <sym id="5" name="c"/>
+  <sym id="3" name="a"/>
+  <sym id="4" name="b"/>
+  <sym id="5" name="c"/>
+  <close/>
+  <sym id="6" name="c"/>
+  <sym id="1" name="a"/>
+  <sym id="2" name="b"/>
+  <sym id="6" name="c"/>
+  <open/>
+  <sym id="7" name="a"/>
+  <sym id="8" name="b"/>
+  <open/>
+  <sym id="9" name="c"/>
+  <sym id="9" name="c"/>
+  <close/>
+  <sym id="10" name="c"/>
+  <sym id="7" name="a"/>
+  <sym id="8" name="b"/>
+  <sym id="10" name="c"/>
+  <close/>
+  <sym id="1" name="a"/>
+  <sym id="2" name="b"/>
+  <sym id="6" name="c"/>
+  <close/>
+</program>

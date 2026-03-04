@@ -1,0 +1,212 @@
+program
+{
+    {
+        {
+           print(5);
+        }
+        {
+           print(1);
+           print(2);
+           print(3);
+           print(4);
+        }
+        {
+           print(1.7*5+2*3.5);
+        }
+        {
+           char aaa;
+           int bbb;
+           float ccc;
+
+           print(1);
+           print(2);
+           print(aaa);
+           print(4);
+        }
+        {
+          char aaa;
+          int bbb;
+          float ccc;
+
+          if (aaa) 
+              return ccc;
+          endif;
+
+          if (bbb+5)
+            return(5);
+          endif;
+        }
+        {
+          char aaa;
+          int bbb;
+          float ccc;
+
+          if (aaa) return 5; endif;
+          if (bbb+5)
+            return(5);
+          else
+            print(aaa);
+          endif;
+        }
+
+        {
+          char aaa;
+          int bbb;
+          float ccc;
+
+          if (aaa) return 5; endif;
+          if (bbb+5)
+            return(5);
+          else
+            print(aaa);
+          endif;
+
+          while (2) print(3);
+        }
+
+        {
+          char aaa;
+          int bbb;
+          float ccc;
+
+          if (aaa) return 5; endif;
+          if (bbb+5)
+            return(5);
+          else
+            print(aaa);
+          endif;
+
+          while (2) print(3);
+          while (4)
+          {
+            print(5);
+            print(6);
+          }
+
+          if (aaa)
+          {
+            print(1);
+            print(2);
+          } 
+          endif;
+        }
+
+        {
+          char aaa;
+          int bbb;
+          float ccc;
+
+          if (aaa) return 5; endif;
+          if (bbb+5)
+            return(5);
+          else
+            print(aaa);
+          endif;
+
+          while (2) print(3);
+          while (4)
+          {
+            print(5);
+            print(6);
+          }
+
+          if (aaa)
+          {
+            print(1);
+            print(2);
+          } else if (5)
+            while (7) 
+              print(2); endif; endif;
+        }
+
+        {
+          char aaa;
+          int bbb;
+          float ccc;
+
+          if (aaa) return 5; endif;
+          if (bbb+5)
+            return(5);
+          else
+            print(aaa);
+          endif;
+
+          while (2) print(3);
+          while (4)
+          {
+            print(5);
+            print(6);
+          }
+
+          if (aaa)
+            print(1);
+            print(2);
+          else if (5)
+            while (7)
+              print(2); endif; endif;
+          return (aaa+5);
+
+          aaa = 12;
+          bbb = 12+aaa;
+        }
+
+        {
+          char aaa;
+          char bbb;
+
+          print(aaa);
+          {
+             int aaa;
+             print(aaa);
+             print(bbb);
+          }
+
+          print(aaa);
+          print(bbb);
+        }
+        {
+          int a;
+          int f1();
+          int f2(int a);
+          float f3(int a, float b);
+
+          int f4(int a)
+          {
+            return a;
+          }
+
+          float f5(int a)
+          {
+            int b;
+            a = b;
+          }
+
+          f5(a);
+          a = f4(a);
+        }
+    }
+    {
+        int aa;             // 4
+        int bb;             // 5
+
+        int foo();          // 6
+        float bar(int aa);  // 7 ( 8 )
+        int foo();          // 6
+        float bar(int aa);  // 7 ( 9 )
+
+        int foo()           // 6
+        {
+            int aa;         // 10
+            return aa;      // 10
+        }
+
+        float bar(int aa)   // 7 ( 11 )
+        {
+            int cc;         // 12
+            return aa*bb*cc;// 11 * 5 * 12
+        }
+
+        print(aa*bb);       // 4 * b
+    }
+
+}

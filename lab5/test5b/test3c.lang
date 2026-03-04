@@ -1,0 +1,8 @@
+program
+{
+    int foo() { return 1; }
+    int bar();
+
+    foo();
+    bar();
+}

@@ -1,0 +1,18 @@
+program
+{
+    int aa;
+    int bb;
+    int cc;
+    int foo(int bb, int cc)
+    {
+        int aa;
+        aa = bb + cc;
+        print(aa);
+        return aa;
+    }
+    int dd;
+
+    dd = aa + bb + cc;
+    aa = foo(dd, cc);
+    print(aa);
+}

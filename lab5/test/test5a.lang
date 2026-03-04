@@ -1,0 +1,13 @@
+program
+{
+  char aaa;
+  int bbb;
+  float ccc;
+
+  if (aaa) 
+      return ccc;
+  endif;
+  if (bbb+5)
+    return(5);
+  endif;
+}

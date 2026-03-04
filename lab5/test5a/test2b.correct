@@ -1,0 +1,4 @@
+ERROR: Symbol other not defined near line 7
+ERROR: Symbol foo not defined near line 10
+ERROR: Symbol bbb not defined near line 11
+3 Errors in compile

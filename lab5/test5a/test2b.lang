@@ -1,0 +1,13 @@
+program
+{
+    int aaa;
+
+    int bar(int param) 
+    {
+        return other;
+    }
+
+    foo();
+    bar(bbb);
+}
+

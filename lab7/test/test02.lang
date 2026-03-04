@@ -1,0 +1,9 @@
+// Anthony Jewell - locals, assignment, and arithmetic
+program
+{
+    int x;
+    int y;
+    x = 7;
+    y = x * 3 - 2;
+    print(y);
+}

@@ -1,0 +1,10 @@
+program
+{
+    char aa;
+    int  bb;
+    float cc;
+
+    aa = 1;
+    bb = 200;
+    cc = 3.0;
+}

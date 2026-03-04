@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<program size="32">
+  <block size="32">
+    <decls size="32">
+      <struct_decl size="21" offset="0">
+        <decls size="21">
+          <var_decl size="1" offset="0">
+            <sym id="1" name="char"/>
+            <sym id="4" name="aa"/>
+          </var_decl>
+          <var_decl size="4" offset="4">
+            <sym id="2" name="int"/>
+            <sym id="5" name="bb"/>
+          </var_decl>
+          <var_decl size="1" offset="8">
+            <sym id="1" name="char"/>
+            <sym id="6" name="cc"/>
+          </var_decl>
+          <var_decl size="8" offset="12">
+            <sym id="3" name="float"/>
+            <sym id="7" name="dd"/>
+          </var_decl>
+          <var_decl size="1" offset="20">
+            <sym id="1" name="char"/>
+            <sym id="8" name="ee"/>
+          </var_decl>
+        </decls>
+        <sym id="9" name="s1"/>
+      </struct_decl>
+      <var_decl size="21" offset="0">
+        <sym id="9" name="s1"/>
+        <sym id="10" name="aa"/>
+      </var_decl>
+      <struct_decl size="8" offset="0">
+        <decls size="8">
+          <var_decl size="4" offset="0">
+            <sym id="2" name="int"/>
+            <sym id="11" name="aa"/>
+          </var_decl>
+          <var_decl size="4" offset="4">
+            <sym id="2" name="int"/>
+            <sym id="12" name="bb"/>
+          </var_decl>
+        </decls>
+        <sym id="13" name="s2"/>
+      </struct_decl>
+      <var_decl size="8" offset="24">
+        <sym id="13" name="s2"/>
+        <sym id="14" name="bb"/>
+      </var_decl>
+    </decls>
+    <stmts>
+      <print>
+        <int value="1"/>
+      </print>
+    </stmts>
+  </block>
+</program>

@@ -1,0 +1,38 @@
+.()  	{}[] ,;
+program
+array
+if
+else
+endif
+while
+print
+int
+float
+char
+long
+double
+struct
+array
+return
+programarray            // should be IDENTIFIER
+123
+123.456
+stuff
+===&&||  	+-/*%==
+// this is a comment
+::@#$			// should get JUNK for each char
+iff			// should be IDENTIFIER (not 'if' followed by 'f')
+123print		// should be INTEGER followed by PRINT
+123.			// should be INTEGER followed by .
+123.xyz			// should be INTEGER . IDENTIFIER
+_this_Is_An_IdentifIER_
+_
+this_Is_An_IdentifIER_
+>
+>=
+=
+<
+<=
+=
+
+

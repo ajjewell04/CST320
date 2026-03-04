@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<program>
+  <block>
+    <stmts>
+      <print>
+        <int value="5"/>
+      </print>
+    </stmts>
+  </block>
+</program>

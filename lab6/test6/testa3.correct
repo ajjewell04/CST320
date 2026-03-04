@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<program>
+  <block size="420">
+    <decls size="420">
+      <array_decl count="5">
+        <sym id="2" name="int"/>
+        <sym id="4" name="int_5"/>
+      </array_decl>
+      <array_decl count="20">
+        <sym id="4" name="int_5"/>
+        <sym id="5" name="int_5_20"/>
+      </array_decl>
+      <var_decl size="20" offset="0">
+        <sym id="4" name="int_5"/>
+        <sym id="6" name="i5"/>
+      </var_decl>
+      <var_decl size="400" offset="20">
+        <sym id="5" name="int_5_20"/>
+        <sym id="7" name="i5_20"/>
+      </var_decl>
+    </decls>
+    <stmts>
+      <assign>
+        <varref size="20" offset="0" rowsizes="4">
+          <sym id="6" name="i5"/>
+          <int value="3"/>
+        </varref>
+        <varref size="400" offset="20" rowsizes="20 4">
+          <sym id="7" name="i5_20"/>
+          <int value="19"/>
+          <int value="1"/>
+        </varref>
+      </assign>
+    </stmts>
+  </block>
+</program>

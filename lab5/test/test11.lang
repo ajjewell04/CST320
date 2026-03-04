@@ -1,0 +1,6 @@
+// Test printing strings
+program
+{
+   prints("This is a test");
+   prints("This is a another test");
+}

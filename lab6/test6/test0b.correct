@@ -1,0 +1,42 @@
+ERROR: Symbol aaa already defined in current scope near line 204
+ERROR: Symbol bbb not defined near line 206
+ERROR: Symbol bbb not defined near line 215
+ERROR: Symbol bbb not defined near line 218
+ERROR: Symbol aaa not defined near line 220
+ERROR: Symbol bbb not defined near line 221
+ERROR: cc is not a struct near line 242
+ERROR: e is not a field of bb near line 243
+ERROR: f is not a field of bb near line 244
+ERROR: bb.c is not a struct near line 246
+ERROR: Cannot assign int to char near line 292
+ERROR: Cannot assign int to char near line 293
+ERROR: Cannot assign int to char near line 294
+ERROR: Cannot assign float to char near line 295
+ERROR: Cannot assign float to int near line 296
+ERROR: Cannot assign int to char near line 320
+ERROR: Cannot assign float to int near line 321
+ERROR: Cannot assign int to char near line 323
+ERROR: Cannot assign float to char near line 324
+ERROR: Cannot assign float to int near line 325
+ERROR: Cannot assign float to int near line 326
+ERROR: Cannot assign struct_1 to int near line 352
+ERROR: Cannot assign int to struct_1 near line 353
+ERROR: Cannot assign struct_2 to struct_1 near line 354
+ERROR: Cannot assign struct_2 to int near line 355
+ERROR: foo is not fully defined near line 364
+ERROR: bar is not fully defined near line 365
+ERROR: Cannot assign float to int near line 365
+ERROR: foo is not fully defined near line 367
+ERROR: bar is not fully defined near line 368
+ERROR: aa previously defined as other than a function near line 396
+ERROR: foo previously defined with different return type near line 399
+ERROR: fluff already has a definition near line 412
+ERROR: foo redeclared with a different number of parameters near line 418
+ERROR: bar previously defined with different parameters near line 421
+ERROR: stuff redeclared with a different number of parameters near line 424
+ERROR: fluff redeclared with a different number of parameters near line 434
+ERROR: func is not an lval near line 442
+ERROR: aa is not a function near line 443
+ERROR: func is not fully defined near line 444
+ERROR: func is not fully defined near line 445
+41 Errors in compile

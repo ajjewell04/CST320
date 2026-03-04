@@ -1,0 +1,4 @@
+ERROR: foo called with incompatible argument near line 9
+ERROR: foo called with incompatible argument near line 11
+ERROR: foo called with incompatible argument near line 13
+3 Errors in compile

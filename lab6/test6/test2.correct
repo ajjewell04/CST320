@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<program size="28">
+  <block size="28">
+    <decls size="17">
+      <var_decl size="1" offset="0">
+        <sym id="1" name="char"/>
+        <sym id="6" name="aa"/>
+      </var_decl>
+      <var_decl size="4" offset="4">
+        <sym id="2" name="int"/>
+        <sym id="7" name="bb"/>
+      </var_decl>
+      <var_decl size="1" offset="8">
+        <sym id="1" name="char"/>
+        <sym id="8" name="cc"/>
+      </var_decl>
+      <var_decl size="4" offset="12">
+        <sym id="3" name="float"/>
+        <sym id="9" name="dd"/>
+      </var_decl>
+      <var_decl size="1" offset="16">
+        <sym id="1" name="char"/>
+        <sym id="10" name="ee"/>
+      </var_decl>
+    </decls>
+    <stmts>
+      <block size="11">
+        <decls size="11">
+          <var_decl size="4" offset="20">
+            <sym id="2" name="int"/>
+            <sym id="11" name="ff"/>
+          </var_decl>
+          <var_decl size="4" offset="24">
+            <sym id="2" name="int"/>
+            <sym id="12" name="gg"/>
+          </var_decl>
+        </decls>
+        <stmts>
+          <print>
+            <int value="1"/>
+          </print>
+        </stmts>
+      </block>
+      <block size="11">
+        <decls size="11">
+          <var_decl size="4" offset="20">
+            <sym id="2" name="int"/>
+            <sym id="13" name="hh"/>
+          </var_decl>
+          <var_decl size="4" offset="24">
+            <sym id="2" name="int"/>
+            <sym id="14" name="ii"/>
+          </var_decl>
+        </decls>
+        <stmts>
+          <print>
+            <int value="2"/>
+          </print>
+        </stmts>
+      </block>
+      <print>
+        <int value="3"/>
+      </print>
+    </stmts>
+  </block>
+</program>

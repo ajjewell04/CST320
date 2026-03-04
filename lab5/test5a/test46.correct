@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<program>
+  <block>
+    <decls>
+      <var_decl>
+        <sym id="1" name="char"/>
+        <sym id="6" name="aaa"/>
+      </var_decl>
+      <var_decl>
+        <sym id="1" name="char"/>
+        <sym id="7" name="bbb"/>
+      </var_decl>
+    </decls>
+    <stmts>
+      <print>
+        <varref>
+          <sym id="6" name="aaa"/>
+        </varref>
+      </print>
+      <block>
+        <decls>
+          <var_decl>
+            <sym id="2" name="int"/>
+            <sym id="8" name="aaa"/>
+          </var_decl>
+        </decls>
+        <stmts>
+          <print>
+            <varref>
+              <sym id="8" name="aaa"/>
+            </varref>
+          </print>
+          <print>
+            <varref>
+              <sym id="7" name="bbb"/>
+            </varref>
+          </print>
+        </stmts>
+      </block>
+      <print>
+        <varref>
+          <sym id="6" name="aaa"/>
+        </varref>
+      </print>
+      <print>
+        <varref>
+          <sym id="7" name="bbb"/>
+        </varref>
+      </print>
+    </stmts>
+  </block>
+</program>

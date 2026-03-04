@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<program>
+  <block>
+    <stmts>
+      <prints value="This is a test"/>
+      <prints value="This is a another test"/>
+    </stmts>
+  </block>
+</program>

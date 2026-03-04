@@ -1,0 +1,10 @@
+program
+{
+    int foo();
+    float foo()
+    {
+        return 1; 
+    }
+
+    print(1);
+}

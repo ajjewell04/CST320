@@ -1,0 +1,26 @@
+program
+{
+    array int[10] int10;
+	array int10[5] int10_5;
+	
+	
+	int a;
+	float b;
+	char c;
+	int10 d;
+	int10_5 e;
+   
+    float foo(int a)
+    {
+		int bb;
+		bb = 5;
+		return a * b;
+	}
+   
+	b = foo(a);
+	b = a + b * c;
+	b = d[a] + e[3][c];
+   
+	print(b);
+}
+   

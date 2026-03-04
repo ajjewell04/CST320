@@ -1,0 +1,8 @@
+#!/bin/bash
+# arrays: a1 a2 , but not a3 because that is 2D arrays
+# structs s1 s2
+# Skipping 0b because that is structs
+for test in 0a 1 2 4 6 8 9 a1 a2 ; do
+    test6/runt test$test
+done
+

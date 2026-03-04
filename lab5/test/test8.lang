@@ -1,0 +1,22 @@
+program
+{
+  int a;
+  int f1();
+  int f2(int a);
+  float f3(int a, float b);
+
+  int f4(int a)
+  {
+    return a;
+  }
+
+  float f5(int a)
+  {
+    int b;
+    a = b;
+  }
+
+  f5(a);
+  a = f4(a);
+}
+

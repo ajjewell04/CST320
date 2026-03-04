@@ -1,0 +1,14 @@
+program
+{
+    array int[5] int_5;
+    int_5 aa;
+    array char[7] char_7;
+    char_7  bb;
+    int cc;
+
+    print(aa[2]);
+    aa[3] = bb[5];
+    bb[3] = 2;
+
+    cc = aa[1];
+}

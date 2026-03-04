@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<program>
+  <block>
+    <decls>
+      <var_decl>
+        <sym id="1" name="char"/>
+        <sym id="6" name="aaa"/>
+      </var_decl>
+      <var_decl>
+        <sym id="2" name="int"/>
+        <sym id="7" name="bbb"/>
+      </var_decl>
+      <var_decl>
+        <sym id="3" name="float"/>
+        <sym id="8" name="ccc"/>
+      </var_decl>
+      <var_decl>
+        <sym id="4" name="long"/>
+        <sym id="9" name="ddd"/>
+      </var_decl>
+      <var_decl>
+        <sym id="5" name="double"/>
+        <sym id="10" name="eee"/>
+      </var_decl>
+    </decls>
+    <stmts>
+      <print>
+        <int value="1"/>
+      </print>
+      <print>
+        <int value="2"/>
+      </print>
+      <print>
+        <varref>
+          <sym id="6" name="aaa"/>
+        </varref>
+      </print>
+      <print>
+        <int value="4"/>
+      </print>
+    </stmts>
+  </block>
+</program>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<program>
+  <block>
+    <decls>
+      <var_decl>
+        <sym id="2" name="int"/>
+        <sym id="6" name="aa"/>
+      </var_decl>
+      <struct_decl>
+        <decls>
+          <var_decl>
+            <sym id="2" name="int"/>
+            <sym id="7" name="aa"/>
+          </var_decl>
+          <var_decl>
+            <sym id="2" name="int"/>
+            <sym id="8" name="bb"/>
+          </var_decl>
+        </decls>
+        <sym id="9" name="a_struct"/>
+      </struct_decl>
+      <var_decl>
+        <sym id="2" name="int"/>
+        <sym id="10" name="bb"/>
+      </var_decl>
+      <var_decl>
+        <sym id="9" name="a_struct"/>
+        <sym id="11" name="cc"/>
+      </var_decl>
+    </decls>
+    <stmts>
+      <print>
+        <varref>
+          <sym id="6" name="aa"/>
+        </varref>
+      </print>
+      <print>
+        <varref>
+          <sym id="11" name="cc"/>
+          <sym id="6" name="aa"/>
+        </varref>
+      </print>
+    </stmts>
+  </block>
+</program>

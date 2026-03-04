@@ -1,0 +1,11 @@
+program
+{
+    // function parameters must be word aligned
+    int foo(char aa, char bb, char cc)
+    {
+        int dd;
+        return aa;
+    }
+
+    print(1);
+}

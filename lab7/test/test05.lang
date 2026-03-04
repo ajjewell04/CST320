@@ -1,0 +1,16 @@
+// Anthony Jewell - array indexing for reads and writes
+program
+{
+    array int [3] data;
+    int i;
+    i = 0;
+    while (i < 3)
+    {
+        data[i] = i + 10;
+        i = i + 1;
+    }
+
+    print(data[0]);
+    print(data[1]);
+    print(data[2]);
+}

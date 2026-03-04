@@ -1,0 +1,6 @@
+// Anthony Jewell - basic integer printing
+program
+{
+    print(1);
+    print(2);
+}

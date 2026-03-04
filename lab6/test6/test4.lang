@@ -1,0 +1,21 @@
+program
+{
+    int aa;
+    int bb;
+    {
+        int aa;
+        int bb;
+        char cc;
+
+        print(1);
+    }
+    
+    {
+        char aa;
+        char bb;
+        int cc;
+
+        print(2);
+    }
+    print(3);
+}

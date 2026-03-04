@@ -1,0 +1,4 @@
+ERROR: foo called with wrong number of arguments near line 6
+ERROR: bar called with wrong number of arguments near line 8
+ERROR: bar called with wrong number of arguments near line 10
+3 Errors in compile

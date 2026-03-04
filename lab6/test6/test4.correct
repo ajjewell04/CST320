@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<program size="20">
+  <block size="17">
+    <decls size="8">
+      <var_decl size="4" offset="0">
+        <sym id="2" name="int"/>
+        <sym id="6" name="aa"/>
+      </var_decl>
+      <var_decl size="4" offset="4">
+        <sym id="2" name="int"/>
+        <sym id="7" name="bb"/>
+      </var_decl>
+    </decls>
+    <stmts>
+      <block size="9">
+        <decls size="9">
+          <var_decl size="4" offset="8">
+            <sym id="2" name="int"/>
+            <sym id="8" name="aa"/>
+          </var_decl>
+          <var_decl size="4" offset="12">
+            <sym id="2" name="int"/>
+            <sym id="9" name="bb"/>
+          </var_decl>
+          <var_decl size="1" offset="16">
+            <sym id="1" name="char"/>
+            <sym id="10" name="cc"/>
+          </var_decl>
+        </decls>
+        <stmts>
+          <print>
+            <int value="1"/>
+          </print>
+        </stmts>
+      </block>
+      <block size="8">
+        <decls size="8">
+          <var_decl size="1" offset="8">
+            <sym id="1" name="char"/>
+            <sym id="11" name="aa"/>
+          </var_decl>
+          <var_decl size="1" offset="9">
+            <sym id="1" name="char"/>
+            <sym id="12" name="bb"/>
+          </var_decl>
+          <var_decl size="4" offset="12">
+            <sym id="2" name="int"/>
+            <sym id="13" name="cc"/>
+          </var_decl>
+        </decls>
+        <stmts>
+          <print>
+            <int value="2"/>
+          </print>
+        </stmts>
+      </block>
+      <print>
+        <int value="3"/>
+      </print>
+    </stmts>
+  </block>
+</program>

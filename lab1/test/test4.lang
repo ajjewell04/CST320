@@ -1,0 +1,45 @@
+{
+GLOBAL
+INSERT
+  a;
+  b;
+  {
+    LOCAL LOOKUP
+    a;
+    b;
+    c;
+    GLOBAL LOOKUP
+    a;
+    b;
+    GLOBAL INSERT
+    a;
+    b;
+    c;
+    a;
+    b;
+    c;
+  }
+  c;
+  a;
+  b;
+  c;
+  {
+    a;
+    b;
+    {
+       GLOBAL LOOKUP
+       c;
+       GLOBAL INSERT
+       c;
+       c;
+    }
+    c;
+    a;
+    b;
+    c;
+  }
+  a;
+  b;
+  c;
+}
+

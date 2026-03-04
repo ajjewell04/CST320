@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<program size="12">
+  <block size="12">
+    <decls size="12">
+      <var_decl size="1" offset="0">
+        <sym id="1" name="char"/>
+        <sym id="6" name="aa"/>
+      </var_decl>
+      <var_decl size="4" offset="4">
+        <sym id="2" name="int"/>
+        <sym id="7" name="bb"/>
+      </var_decl>
+      <var_decl size="4" offset="8">
+        <sym id="3" name="float"/>
+        <sym id="8" name="cc"/>
+      </var_decl>
+    </decls>
+    <stmts>
+      <assign>
+        <varref size="1" offset="0">
+          <sym id="6" name="aa"/>
+        </varref>
+        <int value="1"/>
+      </assign>
+      <assign>
+        <varref size="4" offset="4">
+          <sym id="7" name="bb"/>
+        </varref>
+        <int value="200"/>
+      </assign>
+      <assign>
+        <varref size="4" offset="8">
+          <sym id="8" name="cc"/>
+        </varref>
+        <float value="3.000000"/>
+      </assign>
+    </stmts>
+  </block>
+</program>

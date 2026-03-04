@@ -1,0 +1,14 @@
+program
+{
+    int foo(int a, float b) { return 1; }
+    long bb;
+    double cc;
+
+    foo(1, 1);
+    foo(1, 1.1);
+    foo(1.1, 1);
+
+    foo(bb, 1.2);
+    foo(1, bb);
+    foo(1, cc);
+}

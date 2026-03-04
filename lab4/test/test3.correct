@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<program>
+  <block>
+    <stmts>
+      <print>
+        <expr>
+          <expr>
+            <float value="1.700000"/>
+            <op value="*"/>
+            <int value="5"/>
+          </expr>
+          <op value="+"/>
+          <expr>
+            <int value="2"/>
+            <op value="*"/>
+            <float value="3.500000"/>
+          </expr>
+        </expr>
+      </print>
+    </stmts>
+  </block>
+</program>

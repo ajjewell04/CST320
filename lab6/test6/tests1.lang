@@ -1,0 +1,23 @@
+program
+{
+    struct
+    {
+        char   aa;
+        int    bb;
+        char   cc;
+        float  dd;
+        char   ee;
+    } s1;
+
+    s1 aa;
+
+    struct
+    {
+        int aa;
+        int bb;
+    } s2;
+
+    s2 bb;
+
+    print(1);
+}

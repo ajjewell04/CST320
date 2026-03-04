@@ -1,0 +1,4 @@
+#!/bin/bash
+test/runt test1
+test/runt test2 do_test2
+

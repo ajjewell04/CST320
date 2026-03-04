@@ -1,0 +1,10 @@
+program
+{
+    int foo() { return 1; }
+    int a;
+
+    a = foo();
+    a = foo;
+
+    a = 5;
+}

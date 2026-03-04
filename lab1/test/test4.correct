@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<program>
+  <open/>
+  <global/>
+  <insert/>
+  <sym id="1" name="a"/>
+  <sym id="2" name="b"/>
+  <open/>
+  <local/>
+  <lookup/>
+  <sym id="3" name="a"/>
+  <sym id="4" name="b"/>
+  <sym id="5" name="c"/>
+  <global/>
+  <lookup/>
+  <sym id="1" name="a"/>
+  <sym id="2" name="b"/>
+  <global/>
+  <insert/>
+  <sym id="8" name="a"/>
+  <sym id="9" name="b"/>
+  <sym id="10" name="c"/>
+  <sym id="8" name="a"/>
+  <sym id="9" name="b"/>
+  <sym id="10" name="c"/>
+  <close/>
+  <sym id="11" name="c"/>
+  <sym id="1" name="a"/>
+  <sym id="2" name="b"/>
+  <sym id="11" name="c"/>
+  <open/>
+  <sym id="12" name="a"/>
+  <sym id="13" name="b"/>
+  <open/>
+  <global/>
+  <lookup/>
+  <sym id="11" name="c"/>
+  <global/>
+  <insert/>
+  <sym id="15" name="c"/>
+  <sym id="15" name="c"/>
+  <close/>
+  <sym id="16" name="c"/>
+  <sym id="12" name="a"/>
+  <sym id="13" name="b"/>
+  <sym id="16" name="c"/>
+  <close/>
+  <sym id="1" name="a"/>
+  <sym id="2" name="b"/>
+  <sym id="11" name="c"/>
+  <close/>
+</program>

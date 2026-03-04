@@ -1,0 +1,32 @@
+program
+{
+    int aa;
+    int bb;
+    int foo()
+    {
+        int aa;
+        char bb;
+
+        return 1;
+    }
+    struct
+    {
+        int aa;
+        char bb;
+    } s1;
+    int bar(char aa)
+    {
+        int bb;
+        char cc;
+        {
+            int aa;
+            int bb;
+            print(1);
+        }
+
+        return 2;
+    }
+    s1 cc;
+
+    print(1);
+}

@@ -1,0 +1,14 @@
+program
+{
+    int aaa;
+    int bbb;
+    struct
+    {
+        int aaa;
+        int bbb;
+    } aaa;
+
+    array int[10] bbb;
+
+    aaa = 1;
+}

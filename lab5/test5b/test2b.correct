@@ -1,0 +1,3 @@
+ERROR: aa is not an array near line 9
+ERROR: Index of bb is not an int near line 10
+2 Errors in compile

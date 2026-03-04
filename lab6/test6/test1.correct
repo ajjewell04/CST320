@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<program size="12">
+  <block size="9">
+    <decls size="9">
+      <var_decl size="4" offset="0">
+        <sym id="3" name="float"/>
+        <sym id="6" name="aa"/>
+      </var_decl>
+      <var_decl size="4" offset="4">
+        <sym id="2" name="int"/>
+        <sym id="7" name="bb"/>
+      </var_decl>
+      <var_decl size="1" offset="8">
+        <sym id="1" name="char"/>
+        <sym id="8" name="cc"/>
+      </var_decl>
+    </decls>
+    <stmts>
+      <print>
+        <int value="1"/>
+      </print>
+    </stmts>
+  </block>
+</program>
